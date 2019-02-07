@@ -26,7 +26,7 @@ function shuffleGallery()
 {
 	var index = 0;
 	do {
-		index = Math.floor(Math.random() * (chico.length-1));
+		index = Math.floor(Math.random() * (chico.length));
 	} while (index == current);
 	document.getElementById("picture").style = "height:480px";
 	document.getElementById("picture").src = chico[index].picture;
